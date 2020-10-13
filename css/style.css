@@ -1,0 +1,62 @@
+@font-face{
+    src: url("./font/FuturaStd-Light.otf");
+    font-family: futura;
+}
+
+.ls{letter-spacing: 0.15em;}
+.white{color: white;}
+.t2em{font-size: 2em;}
+.t4em{font-size: 4em;}
+.ab{position: absolute;}
+
+
+html
+{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ccc;
+}
+
+body
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+canvas
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+@keyframes mo{
+  from{
+    bottom: 400px;
+  }
+  to{
+    bottom:100px;
+  }
+
+}
+
+.an{
+  animation-name: mo;
+  animation-duration: 3s;
+  animation-fill-mode:forwards ;
+}
+
+@keyframes op{
+  from{
+    opacity: 0;
+  }
+  to{opacity: 1;
+  }
+}
+
+.op{
+  animation-name: op;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
